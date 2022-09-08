@@ -2,7 +2,7 @@
 //  WelcomeViewController.swift
 //  Flash Chat iOS13
 //
-//  Created by Angela Yu on 21/10/2019.
+//  Created by Livia Carvalho Keller on 04/09/22.
 //  Copyright © 2019 Angela Yu. All rights reserved.
 //
 
@@ -20,7 +20,7 @@ class WelcomeViewController: UIViewController {
         //variavel para controlar o index das letras
         var charIndex = 0.0
         //variavel para amarzenar o title
-        let titleText = "⚡️FlashChat"
+        let titleText = K.appName
         //for para percorrer cada letra
         for letter in titleText {
             //temporizador para cada letra aparecer em um intervalo de tempo, nao repetir(só aparecer na primeira vez)
